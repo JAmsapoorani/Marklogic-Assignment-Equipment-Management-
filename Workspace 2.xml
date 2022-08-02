@@ -1,0 +1,327 @@
+<export><workspace name="Workspace 2"><query name="Query 1" focus="false" listorder="1" taborder="1" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">
+xquery version "1.0-ml";
+
+xdmp:document-insert(
+  "C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments1.xml",
+&lt;Equipments&gt;
+	&lt;company&gt;WNDSR&lt;/company&gt;
+	&lt;BussinessUnit&gt;The Private Limited Liability Company &lt;/BussinessUnit&gt; 
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Rollers&lt;/EquipmentType&gt;
+		&lt;Status&gt;New&lt;/Status&gt;
+		&lt;Quantity&gt;5000units&lt;/Quantity&gt;
+		&lt;Duration&gt;10days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-12T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Scrappers&lt;/EquipmentType&gt;
+		&lt;Status&gt;Allocated&lt;/Status&gt;
+		&lt;Quantity&gt;1000units&lt;/Quantity&gt;
+		&lt;Duration&gt;5days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;50units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-07T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Excavators&lt;/EquipmentType&gt;
+		&lt;Status&gt;Available&lt;/Status&gt;
+		&lt;Quantity&gt;5000units&lt;/Quantity&gt;
+		&lt;Duration&gt;7days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-09T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+&lt;/Equipments&gt; )
+  ,
+  "all done"
+</query><query name="Query 2" focus="false" listorder="2" taborder="2" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">xquery version "1.0-ml";
+
+xdmp:document-insert(
+  "C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments2.xml",
+&lt;Equipments&gt;
+	&lt;company&gt;QCOMP&lt;/company&gt;
+	&lt;BussinessUnit&gt;The Public Limited Liability Company &lt;/BussinessUnit&gt; 
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Excavators&lt;/EquipmentType&gt;
+		&lt;Status&gt;Allocated&lt;/Status&gt;
+		&lt;Quantity&gt;10000units&lt;/Quantity&gt;
+		&lt;Duration&gt;12days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;500units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-14T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Scrappers&lt;/EquipmentType&gt;
+		&lt;Status&gt;New&lt;/Status&gt;
+		&lt;Quantity&gt;5000units&lt;/Quantity&gt;
+		&lt;Duration&gt;5days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-07T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Rollers&lt;/EquipmentType&gt;
+		&lt;Status&gt;Available&lt;/Status&gt;
+		&lt;Quantity&gt;7000units&lt;/Quantity&gt;
+		&lt;Duration&gt;8days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-10T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+&lt;/Equipments&gt;)
+  ,
+  "all done"</query><query name="Query 3" focus="false" listorder="3" taborder="3" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">xquery version "1.0-ml";
+xdmp:document-insert(
+  "C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments3.xml",
+  &lt;Equipments&gt;
+	&lt;company&gt;TCOMP&lt;/company&gt;
+	&lt;BussinessUnit&gt;The Partnership &lt;/BussinessUnit&gt; 
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Scrapper&lt;/EquipmentType&gt;
+		&lt;Status&gt;Available&lt;/Status&gt;
+		&lt;Quantity&gt;80000units&lt;/Quantity&gt;
+		&lt;Duration&gt;12days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;1000units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-14T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Excavators&lt;/EquipmentType&gt;
+		&lt;Status&gt;New&lt;/Status&gt;
+		&lt;Quantity&gt;7000units&lt;/Quantity&gt;
+		&lt;Duration&gt;6days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;500units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-08T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Rollers&lt;/EquipmentType&gt;
+		&lt;Status&gt;Allocated&lt;/Status&gt;
+		&lt;Quantity&gt;1000units&lt;/Quantity&gt;
+		&lt;Duration&gt;2days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-04T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+&lt;/Equipments&gt;)
+  ,
+  "all done"</query><query name="Query 4" focus="false" listorder="4" taborder="4" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">xquery version "1.0-ml";
+xdmp:document-insert(
+  "C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments4.xml",
+  &lt;Equipments&gt;
+	&lt;company&gt;NORDM&lt;/company&gt;
+	&lt;BussinessUnit&gt;The Co-operative Society &lt;/BussinessUnit&gt; 
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Rollers&lt;/EquipmentType&gt;
+		&lt;Status&gt;Available&lt;/Status&gt;
+		&lt;Quantity&gt;15000units&lt;/Quantity&gt;
+		&lt;Duration&gt;10days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;2000units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-12T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Excavators&lt;/EquipmentType&gt;
+		&lt;Status&gt;Allocated&lt;/Status&gt;
+		&lt;Quantity&gt;6000units&lt;/Quantity&gt;
+		&lt;Duration&gt;5days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;500units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-07T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+	&lt;EquipmentDetail&gt;
+		&lt;EquipmentType&gt;Scrapper&lt;/EquipmentType&gt;
+		&lt;Status&gt;New&lt;/Status&gt;
+		&lt;Quantity&gt;3000units&lt;/Quantity&gt;
+		&lt;Duration&gt;3days&lt;/Duration&gt;
+		&lt;AllocatedQuantity&gt;100units&lt;/AllocatedQuantity&gt;
+		&lt;EquipmentStartDateTime&gt;2002-08-02T09:00:00&lt;/EquipmentStartDateTime&gt;
+		&lt;EquipmentEndDateTime&gt;2002-08-05T09:00:00&lt;/EquipmentEndDateTime&gt;
+	&lt;/EquipmentDetail&gt;
+
+&lt;/Equipments&gt;)
+  ,
+  "all done"</query><query name="Query 5" focus="false" listorder="5" taborder="5" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">
+xdmp:document-load("C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments3.xml",  
+  &lt;options xmlns="xdmp:document-load"&gt;    
+    &lt;uri&gt;/Equipment Management -marklogic Assessment/Equipments3.xml&lt;/uri&gt;    
+    &lt;permissions&gt;{xdmp:default-permissions()}&lt;/permissions&gt;    
+    &lt;collections&gt;      
+      &lt;collection&gt;Equipments&lt;/collection&gt;       
+    &lt;/collections&gt;    
+    &lt;format&gt;xml&lt;/format&gt;  
+  &lt;/options&gt;)
+  
+  
+  xdmp:document-load("C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments2.xml",  
+  &lt;options xmlns="xdmp:document-load"&gt;    
+    &lt;uri&gt;/Equipment Management -marklogic Assessment/Equipments2.xml&lt;/uri&gt;    
+    &lt;permissions&gt;{xdmp:default-permissions()}&lt;/permissions&gt;    
+    &lt;collections&gt;      
+      &lt;collection&gt;Equipments&lt;/collection&gt;       
+    &lt;/collections&gt;    
+    &lt;format&gt;xml&lt;/format&gt;  
+  &lt;/options&gt;)
+    
+  xdmp:document-load("C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments1.xml",  
+  &lt;options xmlns="xdmp:document-load"&gt;    
+    &lt;uri&gt;/Equipment Management -marklogic Assessment/Equipments1.xml&lt;/uri&gt;    
+    &lt;permissions&gt;{xdmp:default-permissions()}&lt;/permissions&gt;    
+    &lt;collections&gt;      
+      &lt;collection&gt;Equipments&lt;/collection&gt;       
+    &lt;/collections&gt;    
+    &lt;format&gt;xml&lt;/format&gt;  
+  &lt;/options&gt;)
+  
+    xdmp:document-load("C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Equipments4.xml",  
+  &lt;options xmlns="xdmp:document-load"&gt;    
+    &lt;uri&gt;/Equipment Management -marklogic Assessment/Equipments4.xml&lt;/uri&gt;    
+    &lt;permissions&gt;{xdmp:default-permissions()}&lt;/permissions&gt;    
+    &lt;collections&gt;      
+      &lt;collection&gt;Equipments&lt;/collection&gt;       
+    &lt;/collections&gt;    
+    &lt;format&gt;xml&lt;/format&gt;  
+  &lt;/options&gt;)</query><query name="Query 6" focus="false" listorder="6" taborder="6" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to get all Equipment Details from Equipment collection. :)
+xquery version "1.0-ml";
+for $EquipmentDetail in /Equipments/EquipmentDetail
+return $EquipmentDetail</query><query name="Query 7" focus="false" listorder="7" taborder="7" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to get all Equipment Details from Equipments where Equipment Type is “Rollers”. :)
+xquery version "1.0-ml";
+for $EquipmentDetail in /Equipments/EquipmentDetail
+where $EquipmentDetail/EquipmentType="Rollers"
+return $EquipmentDetail
+</query><query name="Query 8" focus="false" listorder="8" taborder="8" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: All “Equipments” Collection value :)
+
+xquery version "1.0-ml";
+collection("Equipments")</query><query name="Query 9" focus="false" listorder="9" taborder="9" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to get all Equipment Type and Allocated Quantity where Company is “WNDSR”. :)
+xquery version "1.0-ml";
+for $Equipments in /Equipments
+where $Equipments/company="WNDSR"
+return ($Equipments/EquipmentDetail/EquipmentType,$Equipments/EquipmentDetail/AllocatedQuantity)</query><query name="Query 10" focus="false" listorder="10" taborder="10" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(:Write FLWOR query to get all the Equipments Details where status is “Allocated”:)
+xquery version "1.0-ml";
+for $EquipmentDetail in /Equipments/EquipmentDetail
+where $EquipmentDetail/Status="Allocated"
+return $EquipmentDetail</query><query name="Query 11" focus="false" listorder="11" taborder="11" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to get all Equipment Type and count:)
+xquery version "1.0-ml";
+for $Equipments in /Equipments
+return &lt;EquipmentType&gt;{$Equipments/EquipmentDetail/EquipmentType}&lt;Count&gt;{count($Equipments/EquipmentDetail/EquipmentType)}&lt;/Count&gt;&lt;/EquipmentType&gt;
+
+</query><query name="Query 12" focus="false" listorder="12" taborder="12" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to get all Equipment Details grouped by “Equipment Type”:)
+
+xquery version "1.0-ml";
+for $EquipmentDetail in /Equipments/EquipmentDetail
+where  $EquipmentDetail/EquipmentType
+return &lt;EquipmentDetail&gt;{distinct-values($EquipmentDetail)} &lt;/EquipmentDetail&gt;
+
+</query><query name="Query 13" focus="false" listorder="13" taborder="13" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write FLWOR query to update status to “Available” where EquipmentEndDateTime is less than the current date time.  :)
+xquery version "1.0-ml";
+for $EquipmentDetail in /Equipments/EquipmentDetail
+let $datetime := current-dateTime()  
+where ($EquipmentDetail/EquipmentEndDateTime&lt;$datetime and  $EquipmentDetail/Status="Available")
+return $EquipmentDetail
+</query><query name="Query 14" focus="true" listorder="14" taborder="14" active="true" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">(: Write a Function which return Interval For given input start datetime, end datetime and interval duration :)
+xquery version "0.9-ml"
+
+for $EquipmentDetail in /Equipments/EquipmentDetail 
+let $startdatetime := distinct-values($EquipmentDetail/EquipmentStartDateTime)
+let $enddatetime :=  distinct-values($EquipmentDetail/EquipmentEndDateTime)
+return &lt;Interval&gt;{$EquipmentDetail/EquipmentStartDateTime} {$EquipmentDetail/EquipmentEndDateTime}&lt;Intervalduration&gt;{(fn:subtract-dateTimes-yielding-dayTimeDuration($enddatetime,$startdatetime)div xs:dayTimeDuration("PT1M") div 60) div 24
+} &lt;/Intervalduration&gt;&lt;/Interval&gt;
+</query><query name="Query 15" focus="false" listorder="15" taborder="15" active="false" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">
+  xquery version "1.0-ml";
+xdmp:document-insert(
+  "C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\Result.xml",
+  &lt;result&gt; 
+	&lt;endpoint&gt; 
+		&lt;url&gt;/ucbos/endpoint/EP21 &lt;/url&gt; 
+		&lt;endpointName&gt;EP21&lt;/endpointName&gt; 
+       &lt;/endpoint&gt; 
+
+ 	 &lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EPTest &lt;/url&gt; 
+		&lt;endpointName&gt; EPTest &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+
+ 	&lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EP23 &lt;/url&gt; 
+		&lt;endpointName&gt; EP23&lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+ 	&lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EPTest1 &lt;/url&gt; 
+		&lt;endpointName&gt; EPTest1 &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+ 	&lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EPTest2 &lt;/url&gt; 
+		&lt;endpointName&gt; EPTest2 &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+	 &lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EP24 &lt;/url&gt; 
+		&lt;endpointName&gt; EP24 &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+	 &lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EPTest3 &lt;/url&gt; 
+		&lt;endpointName&gt; EPTest3 &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+ 	&lt;endpoint&gt; 
+		 &lt;url&gt;/ucbos/endpoint/EPTest4 &lt;/url&gt; 
+		&lt;endpointName&gt; EPTest4 &lt;/endpointName&gt; 
+	 &lt;/endpoint&gt; 
+         &lt;/result&gt; )
+  ,
+  "all done"
+
+xquery version "1.0-ml";
+for $result in /result
+return &lt;uri&gt;{$result/endpoint/url}&lt;uris&gt;{$result/endpoint/endpointName}&lt;/uris&gt;&lt;/uri&gt;
+ 
+  </query><query name="Query 16" focus="false" listorder="16" taborder="15" active="false" database="4931022102929185545" server="8085914605313456267" database-name="Equipments" server-name="8052-Equipments" mode="xquery" optimize="1">
+ xquery version "1.0-ml";
+xdmp:document-insert("C:\Users\Amsapoorani\OneDrive - Itorizon\Equipment Management -marklogic Assessment\result1.xml",
+ &lt;result&gt; 
+&lt;role&gt; 
+		 &lt;roleName&gt;Business User&lt;/roleName&gt; 
+		&lt;Module&gt; 
+			&lt;moduleName&gt;baseconfig&lt;moduleName&gt; 
+			&lt;service&gt;crossschemalink&lt;/service&gt; 
+			&lt;service&gt;schemamapping&lt;/service&gt; 
+			&lt;service&gt;widgetconfiguration&lt;/service&gt; 
+		&lt;/Module&gt; 
+
+		&lt;Module&gt; 
+			&lt;moduleName&gt;integration&lt;moduleName&gt; 
+			&lt;service&gt;schemamapping&lt;/service&gt; 
+			&lt;service&gt;widgetconfiguration&lt;/service&gt; 
+			&lt;service&gt;crossschemalink&lt;/service&gt; 
+		&lt;/Module&gt; 
+      &lt;/role&gt; 
+  	&lt;role&gt; 
+		&lt;roleName&gt;View_Role&lt;/roleName&gt; 
+		&lt;Module&gt; 
+			&lt;moduleName&gt;privileges&lt;moduleName&gt; 
+			&lt;service&gt;crossschemalink&lt;/service&gt; 
+			&lt;service&gt;schemamapping&lt;/service&gt; 
+			&lt;service&gt;widgetconfiguration&lt;/service&gt; 
+		&lt;/Module&gt; 
+       &lt;/role&gt; 
+	 
+	&lt;role&gt; 
+		&lt;roleName&gt;Business module&lt;/roleName&gt; 
+		&lt;Module&gt; 
+			&lt;moduleName&gt;integration&lt;moduleName&gt; 
+			&lt;service&gt;schemamapping&lt;/service&gt; 
+			&lt;service&gt;schemamapping&lt;/service&gt; 
+			&lt;service&gt;crossschemalink&lt;/service&gt; 
+		&lt;/Module&gt; 
+       &lt;/role&gt; 
+         &lt;/result&gt; )
+  ,
+  "all done"
+         </query></workspace></export>
